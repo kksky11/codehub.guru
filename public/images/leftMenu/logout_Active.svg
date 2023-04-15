@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Logout icon@1x</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="0,0" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Artboard" transform="translate(-28.000000, -15.000000)" stroke-width="1.23076767">
+            <g id="vuesax/linear/login" transform="translate(29.000000, 16.000000)">
+                <path d="M0,4.26050374 C0.254358653,1.23529388 1.77230531,0 5.09537817,0 L5.20204479,0 C8.86973226,0 10.3384487,1.50420198 10.3384487,5.26050414 L10.3384487,10.7394959 C10.3384487,14.495798 8.86973226,16 5.20204479,16 L5.09537817,16 C1.79692084,16 0.278974203,14.7815128 0.00820530557,11.8067231" id="Vector" stroke="#1B1DC7" fill-rule="nonzero" transform="translate(5.169224, 8.000000) scale(-1, 1) translate(-5.169224, -8.000000) "></path>
+                <line x1="4.50844871" y1="7.99160446" x2="15.0766405" y2="7.99160446" id="Vector" stroke="#D90368"></line>
+                <path d="M13.2469187,5.17639648 L15.9956335,7.99152272 L13.2469187,10.806649" id="Vector" stroke="#D90368" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
