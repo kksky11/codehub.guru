@@ -1,0 +1,138 @@
+@import "styles/config.scss";
+
+.coreModalContainer{ background:$SecondaryColor-6; display: flex;justify-content: center;align-items: center;align-self: center;height: 100%;width: 100%; z-index:99; 
+    ::-webkit-scrollbar { width: 6px; padding-left: 0px;}
+    ::-webkit-scrollbar-track { width:6px; background: $lightBackground; }
+    ::-webkit-scrollbar-thumb { width: 6px; background: $SecondaryColor; }
+    ::-webkit-scrollbar-thumb:hover {background: $SecondaryColor;}
+    [class*='MuiBackdrop-root']{background-color :transparent !important;}
+    .MuiPaper-root{ background-color: $whiteColor; border-radius: $commonBorderRadius $commonBorderRadius 0px 0px;}
+    .modalWrapper{max-width: 50%; position: absolute; bottom: 0; top:0;  width: 100%;       
+        .modalHead {position: relative; min-height: 46px;border-radius: $commonBorderRadius $commonBorderRadius 0px 0px; display: flex;justify-content: flex-start;; align-items: center;padding: 10px 16px;
+            &.modalHeadBG{ background: $lightBackground;}
+            .title { display: flex;flex-direction: column;align-items: center;justify-content: space-around;min-height: auto;
+                 h2{margin: 0px; font-size: 14px;font-weight: bold;	line-height:22px; color:$SecondaryColor;} 
+                .lineBar{ background: $SecondaryColor-6; height: 4px; width:40px;border-radius: 2px; display:none; }
+            }
+            .closeIcon{ position: absolute; right:0px;padding: 17px; cursor: pointer; z-index: 9999;}  
+            &.noHeader{min-height: 0px;padding: 0px;
+                .closeIcon{top:45px; padding: 17px; display: flex; align-items: center; justify-content: center;font-size: 9px; color:$whiteColor; background:#000;height: 20px;width: 20px;border-radius: 50%;}
+            }           
+        }
+        .modalBody{border-radius: 0px 0px $commonBorderRadius $commonBorderRadius; display: flex; flex-direction: column; justify-content: space-between;   width:100%; min-height:100px;background-color: $whiteColor ; padding: 16px; max-height: 75vh; overflow: auto;
+            &.noHeader{border-radius:$commonBorderRadius;}
+            button{&:focus,&:hover,&:active{outline:none; box-shadow:none;}}
+            .InputField{font-family: $font-family;
+              div{
+                  div{
+                      &:before{border-bottom: 1px solid $SecondaryColor-2 !important;}
+                      &:focus,&:hover{
+                        &:after{border-bottom: 1px solid $SecondaryColor-6 !important;}
+                        &:before{border-bottom: 1px solid $SecondaryColor-6 !important;}
+                      }
+                      
+                  }
+              }
+          }
+          .info{font-size: 14px;line-height:22px; color:$SecondaryColor-7;margin:0px 0px 8px;}
+        }
+    }
+    &.closeIconCenter{ top: -55px;padding: 17px;left: 0;right: 0;margin: auto;
+        .modalWrapper{
+            .modalHead{
+                &.noHeader{ min-height: 0px; padding: 0px;
+                    .closeIcon{top:-36px !important; padding: 2px !important; font-size: 10px !important; left: 0 !important; right: 0 !important; margin: 0 auto; color: $whiteColor !important;  background: #000000 !important;  }
+                }  
+            }
+        }      
+    }
+    &.mandateContainer{position: absolute; background: transparent; height:auto; margin-top: 30px; top: 0;
+        .modalWrapper{width: 100%; max-width: 100%;position: relative;top: 0px;}
+        .sliderCard { &.modalWrapper { overflow: initial; } }
+    }
+    &.fixedModal{position: fixed; top:0px; left: 0px;  z-index: 9999;
+        .modalWrapper{display: flex;justify-content: center;align-items: center;align-self: center;height: 100%;width: 100%; flex-direction: column;}
+    }
+    &.faqsModal{
+        .modalWrapper{
+            .modalBody{min-width: 400px;
+                .confirmationModal{
+                    &._success{align-items: center; justify-content: center;}
+                }
+            }
+        }
+    }
+    &.thankYouModal{
+        .modalWrapper{max-width: 400px;
+            .modalBody{
+                .info{font-size: 14px;line-height:22px; color:$SecondaryColor-7; margin:0px 0px 8px;}
+            }
+        }
+    }
+    &.infoModal{
+        .modalWrapper{max-width: 400px;
+            .modalBody{min-width: 360px;
+                .info{font-size: 14px;line-height:22px; color:$SecondaryColor-7; margin:0px 0px 8px;}
+            }
+        }
+    }
+    &.CreditScoreModal{
+        .modalWrapper{
+            .modalHead {min-width: 300px;}
+            .modalBody{min-width: 300px;}
+        }
+    }
+}
+body{
+    &.CoreModalShow{ overflow: hidden;}   
+}
+
+
+@media only screen and (max-width: 768px) {
+    .coreModalContainer{position: fixed; left:0px; top:0px; display: flex;justify-content: center;align-items: center;align-self: center;height: 100vh;width: 100%; z-index:999999; 
+        [class*='MuiPaper-root-'] {border-top-left-radius: 24px;border-top-right-radius: 24px;background-color :transparent !important;}
+        .MuiPaper-root{ background-color: transparent !important; border-radius: 24px 24px 0 0;}
+        .modalWrapper{ max-width: 100%; position: unset; width: 100%; overflow: hidden;
+            .modalHead {width: 100%; position: relative; min-height: 26px;border-radius: 24px 24px 0 0; display: flex;justify-content: center; align-items: center;padding: 10px 16px;
+                &.noHeader{background:$whiteColor; min-height:16px; padding: 10px 16px;
+                    .title{min-height:16px;}
+                 }
+                &.modalHeadBG{ background: $lightBackground; min-height:46px; padding: 10px 16px;
+                //  .title{min-height: 40px;}
+                }           
+                .title{ display: flex;flex-direction: column;align-items: center;justify-content: space-around;min-height: 40px;
+                    h2{margin: 0px; font-size: 14px;font-weight: bold; line-height: 22px;} 
+                    .modalHeadingLogo{max-height: 30px; width:auto;margin: 10px 0px;} 
+                    .lineBar{display: block; background: $SecondaryColor-6; height: 4px; width:40px;border-radius: 2px; }
+                }
+                .closeIcon{ position: absolute; right:0px;padding: 17px; display: none;}
+            
+            }
+            .modalBody{ border-radius: 0px; display: flex; width:100%; min-height:100px;max-height: 92vh; background-color: $whiteColor ; padding: 16px;
+                &.noHeader{ border-radius: 0px;}
+            }
+        }
+        
+        &.mandateContainer{ position: fixed;
+            .modalWrapper{
+                .MandatePaymentMethordButton { margin: 0;
+                    .MandateBtnInfo { margin: 10px 0px 30px; }
+                }
+            }
+        }
+        &.faqsModal{
+            .modalWrapper{
+                .modalBody{min-width: 100%;}
+            }
+        }
+        &.thankYouModal{
+            .modalWrapper{max-width: 100%;}
+        }
+    
+    }
+    body{
+        &.CoreModalShow{
+            .wrapper{-webkit-filter: blur(3px);-moz-filter: blur(3px);-o-filter: blur(3px);-ms-filter: blur(3px);filter: blur(3px);}
+        }   
+    }
+}

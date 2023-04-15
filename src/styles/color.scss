@@ -1,0 +1,81 @@
+$PrimaryColor   :#D90368;
+$UnlockBanner   :#2A2044;
+$dark_gray      :rgba(76, 51, 227, 0.12);
+$light_gray     :#F9F8FF;
+$light_gray2    :rgba(27, 29, 199, 0.1);
+$light_blue2    :#69829F;
+$greenColor     :#1EB56C;
+$disable-color  :#f5f5f5;
+$checkLineColor :#0BAE85;
+$failed         :#D72716;
+$SelectedColor  :#F9FAFE;
+
+$whiteColor  : #ffffff;
+$whiteColor-2: rgba(255, 255, 255, 0.2);
+$whiteColor-3: rgba(255, 255, 255, 0.3);
+$whiteColor-4: rgba(255, 255, 255, 0.4);
+$whiteColor-5: rgba(255, 255, 255, 0.5);
+$whiteColor-6: rgba(255, 255, 255, 0.6);
+$whiteColor-7: rgba(255, 255, 255, 0.7);
+$whiteColor-8: rgba(255, 255, 255, 0.8);
+$whiteColor-9: rgba(255, 255, 255, 0.9);
+
+$SecondaryColor  : #36187d;
+$SecondaryColor-1: rgba(54, 24, 125, 0.1);
+$SecondaryColor-2: rgba(54, 24, 125, 0.2);
+$SecondaryColor-3: rgba(54, 24, 125, 0.3);
+$SecondaryColor-4: rgba(54, 24, 125, 0.4);
+$SecondaryColor-5: rgba(54, 24, 125, 0.5);
+$SecondaryColor-6: rgba(54, 24, 125, 0.6);
+$SecondaryColor-7: rgba(54, 24, 125, 0.7);
+$SecondaryColor-8: rgba(54, 24, 125, 0.8);
+$SecondaryColor-9: rgba(54, 24, 125, 0.9);
+
+$SecondaryLightColor  : #0196e3;
+$SecondaryLightColor-1: rgba(1, 150, 227, 0.1);
+$SecondaryLightColor-2: rgba(1, 150, 227, 0.2);
+$SecondaryLightColor-3: rgba(1, 150, 227, 0.3);
+$SecondaryLightColor-4: rgba(1, 150, 227, 0.4);
+$SecondaryLightColor-5: rgba(1, 150, 227, 0.5);
+$SecondaryLightColor-6: rgba(1, 150, 227, 0.6);
+$SecondaryLightColor-7: rgba(1, 150, 227, 0.7);
+$SecondaryLightColor-9: rgba(1, 150, 227, 0.9);
+$SecondaryLightColor-15: rgba(1, 150, 227, 0.15);
+
+$lightBackground  : #e6ebef;
+$lightBackground-3: rgba(230, 235, 239, 0.3);
+$lightBackground-4: rgba(230, 235, 239, 0.4);
+$lightBackground-5: rgba(230, 235, 239, 0.5);
+$lightBackground-6: rgba(230, 235, 239, 0.6);
+
+//buttonColor
+
+$buttonBgColor:$SecondaryLightColor;
+$buttonColor:$whiteColor;
+
+$boxShowColor       : #E3EAF2;
+$loaderSkeletonColor: #F4F4F4;
+$stepsBorderColor   : #e6ebef;
+$cardBg             : rgba(251,251,255,0.8);
+
+//box-shadow
+$boxShadow        : 0 2px 4px 0 #E3EAF2;
+$box-shadow       : 0 2px 4px 0 $boxShowColor;
+$box-shadow-hover : 0 6px 11px 0 rgba(0, 0, 0, 0.1);
+$card-box-shadow  : inset -20px -20px 60px 0 #FFFFFF, 10px 10px 40px 0 rgba(47,72,145,0.13);
+
+
+//loader
+$overlayColor      : $SecondaryColor-6;
+$loader-box-shadow : 0 4px 8px 0 $SecondaryColor-6;
+$loader-bg         : linear-gradient(135deg, #2258E0 0%, #35B3F5 100%);
+$MenuBg            : rgba(216, 216, 216, 0.2);
+
+$backdropBgColor   : $SecondaryColor-6;
+
+$bodyBgColor       :#f2f3f7;
+
+// footer color
+$footerTextColor: $whiteColor;
+$footerBorder   : rgba(29,31,37,0.2);
+$footerBg       : transparent;

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4@1x</title>
+    <g id="Final---Revamp-Bureaus---Mobile-&amp;-Desktop--Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-36.000000, -13.000000)">
+            <g id="Group-4" transform="translate(36.000000, 13.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                <g id="Group-3" transform="translate(1.928571, 0.000000)" stroke="#052F5F">
+                    <g id="Group-14" transform="translate(7.500000, 8.972222) scale(-1, 1) translate(-7.500000, -8.972222) " stroke-width="1.28571429">
+                        <path d="M8.93223205,0.642857143 C9.29044648,0.642857143 9.63683463,0.771050752 9.90874465,1.00425136 L9.90874465,1.00425136 L13.8336555,4.3704075 C14.1659291,4.65537832 14.3571429,5.07127575 14.3571429,5.50901329 L14.3571429,5.50901329 L14.3571429,15.8015873 C14.3571429,16.2158009 14.1892496,16.5908009 13.917803,16.8622475 C13.6463564,17.1336941 13.2713564,17.3015873 12.8571429,17.3015873 L12.8571429,17.3015873 L2.14285714,17.3015873 C1.72864358,17.3015873 1.35364358,17.1336941 1.08219697,16.8622475 C0.810750362,16.5908009 0.642857143,16.2158009 0.642857143,15.8015873 L0.642857143,15.8015873 L0.642857143,2.14285714 C0.642857143,1.72864358 0.810750362,1.35364358 1.08219697,1.08219697 C1.35364358,0.810750362 1.72864358,0.642857143 2.14285714,0.642857143 L2.14285714,0.642857143 Z" id="Rectangle"></path>
+                        <path d="M14.4387755,5.2526455 L10.5204082,5.2526455 C9.97939453,5.2526455 9.54081633,4.8140673 9.54081633,4.27305367 L9.54081633,0.477513228 L9.54081633,0.477513228" id="Rectangle" stroke-linejoin="round"></path>
+                    </g>
+                    <g id="Group-2" transform="translate(5.357143, 8.444444)">
+                        <ellipse id="Oval" stroke-width="1.28571429" fill="#FFFFFF" cx="5.35714286" cy="5.27777778" rx="4.71428571" ry="4.63492063"></ellipse>
+                        <g id="vuesax/linear/document-download" transform="translate(3.896104, 2.878788)" stroke-dasharray="0,0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.974025974">
+                            <g id="document-download">
+                                <path d="M1.46103896,0 L1.46103896,4.7979798 L2.92207792,3.1986532" id="Vector" fill-rule="nonzero"></path>
+                                <line x1="1.46103896" y1="4.7979798" x2="0" y2="3.1986532" id="Vector"></line>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

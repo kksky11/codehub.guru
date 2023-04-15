@@ -1,0 +1,12 @@
+@import "styles/config.scss";
+
+.siteLogo {display: flex; align-items: center;cursor: pointer;
+    img {   
+        &.Logo { padding-right: 10px;}
+    }
+    @include respond-below ( sm ){
+        img {   
+            &.Logo { max-height: 20px; padding: 0px; margin: 0px;   max-width: 135px;}
+        }
+    }
+}

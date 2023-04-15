@@ -1,0 +1,15 @@
+@import "styles/config.scss";;
+
+.tostContainer{position: fixed;top: 5px;width: auto;z-index: 99999; max-width: 400px;margin: 0%;left:auto;right:25px;
+    .msgPopup{position: relative; box-shadow: $box-shadow; background: $lightBackground;border-radius: 4px;color:$failed;font-size: 14px;width: 100%;text-align: left;height: auto;display: flex;justify-content:flex-start;align-items:center;padding:15px 30px 15px 15px;
+        &.success {background:$lightBackground; color:$greenColor;}
+        img{height: 24px; width: auto; margin-right: 10px;}
+        .closeIcon{position: absolute;top: 10px;right: 0px;height: 9px;opacity: 0.6; cursor: pointer;}
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .tostContainer{top: 56px;max-width: 100%;margin: 0% 0%;left: 0px;right: 0px;
+        .msgPopup{ border-radius:0px; padding:5px 30px 5px 19px;}
+    }
+}

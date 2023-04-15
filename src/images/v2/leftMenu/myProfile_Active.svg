@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group Copy@1x</title>
+    <g id="Final---Revamp-Bureaus---Mobile-&amp;-Desktop--Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-41.000000, -12.000000)">
+            <g id="Group-Copy" transform="translate(41.000000, 12.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                <g id="profile_icon" transform="translate(2.000000, 2.000000)" stroke-width="1.2">
+                    <g id="Group-72">
+                        <path d="M13,15.2213713 C12.1571637,13.3235549 10.2559012,12 8.04550588,12 C5.75154648,12 3.79053527,13.4255207 3,15.4390342" id="Oval" stroke="#DB1072"></path>
+                        <rect id="Rectangle" stroke="#1B1DC7" x="0.6" y="0.6" width="14.8" height="14.8" rx="5"></rect>
+                        <circle id="Oval" stroke="#DB1072" cx="8" cy="7" r="3"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

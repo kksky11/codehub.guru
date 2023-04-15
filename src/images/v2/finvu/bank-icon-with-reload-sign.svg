@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="87px" viewBox="0 0 73 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>7DDB6B7D-8290-4FAE-9A95-8CB4168228B6</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="26.3283582" height="26.3529412" rx="6.32470588"></rect>
+        <filter x="-81.7%" y="-43.6%" width="263.3%" height="274.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="5" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="13" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="rana-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="my-account---otp-not-verified-copy-3" transform="translate(-463.000000, -504.000000)">
+            <g id="Group-32-Copy-3" transform="translate(443.000000, 483.000000)">
+                <g id="Group-4" transform="translate(-86.000000, -63.000000)">
+                    <g transform="translate(106.000000, 84.000000)" id="Group-25">
+                        <g id="Bank">
+                            <g id="Group" transform="translate(8.908880, 17.911051)" fill="#7DB7FF" fill-rule="nonzero">
+                                <rect id="Rectangle" x="0" y="0" width="6.67845098" height="26.9025261"></rect>
+                                <polygon id="Rectangle" transform="translate(20.114864, 13.556224) rotate(-0.342766) translate(-20.114864, -13.556224) " points="16.7762858 0.191619836 23.4544738 0.19139432 23.4534421 26.9208283 16.7752541 26.9210538"></polygon>
+                                <rect id="Rectangle" x="33.5512749" y="0.173564684" width="6.67845098" height="26.7289614"></rect>
+                            </g>
+                            <line x1="20.7467674" y1="47.947244" x2="21.393756" y2="47.947244" id="Path" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <path d="M52.3198105,48.7860667 L3.40747323,48.7860667 L3.40747323,45.7920759 C3.40747323,45.054426 4.01132924,44.4469496 4.74458298,44.4469496 L50.9827007,44.4469496 C51.7159545,44.4469496 52.3198105,45.054426 52.3198105,45.7920759 L52.3198105,48.7860667 L52.3198105,48.7860667 Z" id="Path" fill="#C4E0FF" fill-rule="nonzero"></path>
+                            <path d="M55.9429466,52.7058824 L0,52.7058824 L0,49.7118916 C0,48.9742416 0.603856015,48.3667652 1.33710975,48.3667652 L54.6058368,48.3667652 C55.3390906,48.3667652 55.9429466,48.9742416 55.9429466,49.7118916 L55.9429466,52.7058824 Z" id="Path" fill="#009BFD" fill-rule="nonzero"></path>
+                            <line x1="11.9477226" y1="2.16955855" x2="14.8376049" y2="0" id="Path" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <path d="M2.0998725,19.4638237 L27.073632,0.979184818 C28.281344,0.0679702263 29.9635144,0.0679702263 31.214359,0.979184818 L55.7136602,19.4638237 C57.0507699,20.4618206 56.3606487,22.587988 54.6784784,22.587988 L3.13505424,22.587988 C1.45288392,22.587988 0.762762755,20.4618206 2.0998725,19.4638237 Z" id="Path" fill="#0097FE" fill-rule="nonzero"></path>
+                            <ellipse id="Oval" fill="#FFFFFF" cx="28.9442325" cy="11.5075306" rx="3.74668015" ry="3.76470588"></ellipse>
+                        </g>
+                        <g id="Group-2" transform="translate(36.671642, 37.647059)">
+                            <g id="Rectangle">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <g id="icons8-replay-30-(1)" transform="translate(6.969271, 6.975779)">
+                                <path d="M0,5.81314879 C0,9.02359232 2.60027736,11.6262976 5.80772608,11.6262976 C9.01517479,11.6262976 11.6154522,9.02359232 11.6154522,5.81314879 C11.6154522,2.60270525 9.01517479,0 5.80772608,0 C4.04798507,0 2.47145143,0.783189682 1.40599769,2.02033344" id="Path" stroke="#094772" stroke-width="1.43743316" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <polygon id="Path" fill="#094772" fill-rule="nonzero" points="0.527975098 3.17080843 3.69582568 3.17080843 0.527975098 0"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

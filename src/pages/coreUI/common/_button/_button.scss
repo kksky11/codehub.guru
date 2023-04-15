@@ -1,0 +1,46 @@
+@import "styles/config.scss";
+
+._button{display: flex;align-items: center; justify-content: center;color: $SecondaryLightColor; height: 38px; min-width: 100px;  font-size: 14px; line-height: 12px; font-weight: 600; cursor: pointer;border-radius: 6px; outline: none; border: none; padding: 0 12px;
+    &.logout,
+    &.login{ background: $whiteColor; color: $SecondaryLightColor;border:1px solid $SecondaryColor-1; height: 38px; width: 100px; }
+    &.whiteTheme {background: transparent;border: 1px solid $SecondaryLightColor;color: $SecondaryLightColor;} 
+    &.blueTheme {background: $SecondaryLightColor;color: $whiteColor;}
+    &[disabled] {background: $disable-color;cursor: not-allowed;border-color: #d9d9d9;color: $SecondaryColor-6;opacity: 0.6;}
+    &:focus { outline: none; }
+    .btn_dot_image{height:18px;}
+    &._info{ background: $SecondaryLightColor;}
+    &._error{background: $failed;}
+    &._success{background: $greenColor;}
+    &._link{background: transparent; color: $SecondaryLightColor; height: auto; border: 0px;}
+    .btnIcon{display: flex; align-items: center; justify-content:space-between; height: 16px; 
+        &.btn_after_image{ margin-left: 6px;}
+        &.btn_before_image{ margin-right: 6px;}
+    }
+    &.loader{background: $SecondaryLightColor !important; opacity: 1;
+        &[disabled]{background: $SecondaryLightColor !important; opacity: 1;}
+    }
+
+}
+
+.spinner{ width:91px; height:31px; display: flex; align-items: center; justify-content: center;
+    > div {background: $whiteColor;height: 100%;width:4px;display: block;margin-left:2px;-webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;animation: sk-stretchdelay 1.2s infinite ease-in-out;}
+    .rect2 {-webkit-animation-delay: -1.1s;animation-delay: -1.1s;}
+    .rect3 {-webkit-animation-delay: -1.0s;animation-delay: -1.0s;}
+    .rect4 {-webkit-animation-delay: -0.9s;animation-delay: -0.9s;}
+    .rect5 {-webkit-animation-delay: -0.8s;animation-delay: -0.8s;}
+}  
+
+@-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+    20% { -webkit-transform: scaleY(1.0) }
+}
+@keyframes sk-stretchdelay {
+    0%, 40%, 100% {transform: scaleY(0.4);-webkit-transform: scaleY(0.4);}  
+    20% {transform: scaleY(1.0);-webkit-transform: scaleY(1.0);}
+}
+
+@include respond-below ( sm ){ 
+    ._button{
+        &.login{ height: 40px;width: 80px;min-width: 80px;}
+    }
+}

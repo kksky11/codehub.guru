@@ -1,0 +1,38 @@
+@import "styles/config.scss";
+
+.commonHeading{font-size: 18px;line-height: 26px;color: $SecondaryLightColor;padding-bottom: 6px;margin-bottom: 14px;
+    .heading{position: relative;margin-bottom: 20px;font-weight: 500;
+        &:after{content: "";width: 40px;height: 2px;background:$PrimaryColor;display: block;position: absolute;bottom: -10px;left: 0;}
+    }
+    .subHeading{color: #052F5F;font-size: 14px;line-height: 22px; text-align: justify; }
+    &.quoteList_modal{ position: relative; padding-left: 30px;
+        &::before{content: "";height: 24px; width: 24px; background: url($imgOffers+'percent.svg') top left no-repeat;background-size: 24px; position: absolute; left: 0px; top:5px; }
+        .heading{ margin: 0px; font-weight: 600;
+            &:after{display: none;}
+        } 
+        .subHeading{margin: 0px; font-weight:500;}
+    }
+    &._center{text-align: center;
+       .heading{  
+            &:after{ left: 50%;transform: translateX(-50%);}
+        }
+    }
+    &._right{
+        .heading{position: relative; margin-bottom: 0px;
+                    &:after{width: 60px; position: absolute;top: 14px; margin-left: 10px; bottom: auto; left: auto;display: inline-flex}
+                }
+    }
+    &.creditProFaq{
+    @include respond-below ( sm ){
+        .heading{ padding-bottom: 16px !important; display: flex;flex-direction: column;align-items: flex-start;
+            &:after{content: ""; margin-left: 0px !important; bottom: -10px !important;}
+        }
+    } 
+   }
+   &.faqsHeading{
+        @include respond-below ( sm ){
+            //.heading{ padding: 0px 16px;}
+        } 
+   }
+             
+} 

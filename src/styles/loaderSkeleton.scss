@@ -1,0 +1,234 @@
+@import "./config.scss"; 
+
+.loaderSkeleton { 
+    .c-skeleton { display: flex; align-items: flex-start; padding: 10px 10px 8px; background: $whiteColor;border-radius: 6px;
+        border: 1px solid $SecondaryColor-1; margin-bottom: 16px;}
+    .c-skeleton_figure {  margin-right: 1em; flex-grow: 0; flex-shrink: 0; line-height: 1;width: 90px; height: 50px; }
+    .c-skeleton_body { flex-grow: 1; flex-shrink: 1; display: flex;
+        .c-skeleton_div {flex: 0 0 15%;
+            &:first-child { flex: 0 0 40%; }
+            &.skeleton_title {
+                .c-skeleton__text {height: 1.4em;}
+            }
+            &.skeleton_subText {
+                .c-skeleton__text {height: 1em;width: 60%;}
+            }
+            &.skeleton_button {
+                .c-skeleton__text {height: 2em;width: 70%;}
+            }
+        }
+        .skeleton_subText_wrapper {flex-grow: 1; flex-shrink: 1; display: flex;
+            .c-skeleton_div { flex: 0 0 50%;}
+        }
+    }
+    .container{width: 100%;margin-right: auto;margin-left: auto;
+        .row{display: flex;flex-wrap: wrap;}
+
+    }
+    .mainSidebarSection{ width: 275px; position: fixed; top: 102px;
+        ._menuList{list-style: none;  min-height: 200px; max-height: 82vh; margin: 0px; padding: 16px; box-sizing: border-box;height: auto;width: 262px;border-radius: $boxBorderRadius;background-color: #FFFFFF; overflow: auto; box-shadow: $boxShadow;
+            .list{height: 30px; margin-bottom: 24px; width: 100%; }
+        }
+    }
+    .headerContainer{padding:8px 0px; width: 100%; height:50px; display: flex;background-color:$whiteColor;align-items: center; justify-content: center;
+      .header{ width: 100%; max-width: $pageMaxWidth;  display: flex; align-items: center; justify-content: space-between;
+        .logo,
+        .button{ max-width: 100px; display: flex;
+            .c-skeleton__text{height: 40px; width: 100px;}
+        }
+        
+      }
+    }
+    .puckarTncBanner{@include commonBox();margin-bottom: 16px; padding:$commonPadding ;overflow: auto;
+        .c-skeleton__text{padding: 0px;height: 25px; margin: 0px;width: 100%;}
+    }
+    &.apply{
+        .container{width: 100%;  max-width: 100%;display: flex;
+            .screen_body,
+            .screen_header{height: 100vh; margin: 0px;border-radius: 0px;}
+            .screen_header{width: 41.66666667%;  
+                .c-skeleton_body{padding: 0px 16px 0px 0px; margin: 0px; border-radius: 0px;}
+            }
+            .screen_body{width:58.33333333%;  
+                .screen_body_leftmenu{padding: 0px 0px 16px 0px; border-radius: 0px; max-height: 10vh;}
+                .screen_body_content{padding: 0px; border-radius: 0px; max-height: 90vh;}
+            }
+        }
+    }
+    &.creditSavingsSkeleton{width: 100%; margin: 0px auto; max-width: 941px;}
+    &.PersonalDetailsSkeleton{ border: 0px; box-shadow: none;
+        .tabHeading{ display: flex; 
+            .c-skeleton__text{border-radius: 8px;min-height: 30px; margin:12px 0px;margin-right: 24px; width:100px;}
+        }
+        .tabData{display: flex;align-items: flex-start;justify-content: flex-start; flex-wrap: wrap;
+            .c-skeleton__figure{border-radius: 8px; min-height: 140px; width:calc(33% - 16px);margin:12px 0px; margin-right: 24px;
+                &:nth-child(3n){margin-right: 0px;} 
+            }
+        }
+    }  
+    &.fullPageSkeleton {width: 100%; height: 100%; min-height: 100vh;
+        .screen_header { height: 10vh; margin: 1vh 0 4vh 0; width: 100%; 
+            .c-skeleton_body {  height: 100%; width: 100%; 
+                .c-skeleton__text { height: 100%; width: 100%; }
+            }
+        }
+        .screen_body { height: calc(100vh - 22vh); 
+            .screen_body_leftmenu, 
+            .screen_body_content {height: 100%; width: 100%; 
+                .c-skeleton_body { height: 100%; width: 100%; 
+                    .c-skeleton__text { height: 100%; width: 100%; }
+                }
+            }
+        }
+    }
+    
+    &.finViewSkeleton{
+        .cardWrapper{display: flex;align-items: center;justify-content: space-between;width: 100%;flex-wrap: wrap; margin: 0px;
+            .cardContainer{width:calc(50% - 12px); margin: 0px 24px 24px 0px; border-radius: 8px;overflow: hidden;background-color: $whiteColor;border-top:5px solid $SecondaryColor !important; border:1px solid $SecondaryColor-1; padding:16px;
+                &:nth-child(2n){ margin: 0px 0px 16px 0px; } 
+                .c-skeleton__figure{border-radius: 8px; width:100%; min-height: 92px; margin:0px; margin-right: 24px;}
+            }
+        
+            .totalBalanceCardContainer{margin-bottom: 24px;box-sizing: border-box;width: 100%;border-radius: 8px 12px 12px 8px;//padding-left: 5px;background: linear-gradient(0deg, #7FB4FC 0%, #F75F75 100%);
+                .card{background-color: $whiteColor; padding: 16px; border-radius: 8px;border-left: 0px; //border: 1px solid $SecondaryColor-1;
+                    .c-skeleton__figure{border-radius: 8px; width:100%; min-height: 120px; margin:0px;}
+                }
+            }
+            .offerBannerList{margin-bottom: 24px;box-sizing: border-box;width: 100%;border-radius: 8px 12px 12px 8px;padding-left: 5px;background: linear-gradient(0deg, #7FB4FC 0%, #F75F75 100%);
+                .card{background-color: $whiteColor; padding: 16px; border-radius: 8px;border-left: 0px; border: 1px solid $SecondaryColor-1;
+                    .c-skeleton__figure{border-radius: 8px; width:100%; min-height: 120px; margin:0px;}
+                }
+            }
+        }
+    }
+    &.myAccountsSkeleton{margin-bottom: 16px; padding:$commonPadding ; box-shadow: none; border-radius:$commonBorderRadius;background-color: #FFFFFF;overflow: auto;
+        .tabHeading{ display: flex; 
+            .c-skeleton__text{border-radius: 8px;min-height: 30px; margin:0px 0px;margin-right: 24px; width:100px;}
+        }
+        .tabData{display: flex;align-items: flex-start;justify-content: flex-start; flex-wrap: wrap;
+            .c-skeleton__figure{border-radius: 8px; min-height: 275px; width:100%; margin: 16px 0px 0px;
+                &:nth-child(3n){margin-right: 0px;} 
+            }
+        }
+        .cardWrapper{display: flex;align-items: center;justify-content: space-between;width: 100%;flex-wrap: wrap; margin: 0px;
+            .cardContainer{width:calc(50% - 12px); margin: 0px 24px 24px 0px; border-radius: 8px;overflow: hidden;background-color: $whiteColor;border-top:5px solid $SecondaryColor !important; border:1px solid $SecondaryColor-1; padding:16px;
+                &:nth-child(2n){ margin: 0px 0px 16px 0px; } 
+                .c-skeleton__figure{border-radius: 8px; width:100%; min-height: 92px; margin:0px; margin-right: 24px;}
+            }
+            .offerBannerList{margin-bottom: 24px;box-sizing: border-box;width: 100%;border-radius: 8px 12px 12px 8px;padding-left: 5px;background: linear-gradient(0deg, #7FB4FC 0%, #F75F75 100%);
+                .card{background-color: $whiteColor; padding: 16px; border-radius: 8px;border-left: 0px; border: 1px solid $SecondaryColor-1;
+                    .c-skeleton__figure{border-radius: 8px; width:100%; min-height: 120px; margin:0px;}
+                }
+            }
+        }
+    } 
+    &.productCardSkeleton{width: 100%;
+        .title{@include commonBox(); padding:8px;  margin:0px 0px 16px;  width:200px;
+            .c-skeleton__text{padding: 0px;height: 30px; margin: 0px;width: 100%;}
+        }
+        .propductData{@include commonBox(); margin-bottom: 16px; padding:$commonPadding ;overflow: auto;
+           .c-skeleton__figure {height: 130px;}
+        }
+    }
+
+    &.transactionsWrapper{
+        .title{@include commonBox(); padding:8px;  margin:0px 0px 16px;  width:200px;
+            .c-skeleton__text{padding: 0px;height: 30px; margin: 0px;width: 100%;}
+        }
+        .transactionsListContainer{@include commonBox(); padding: 0px; display: flex;flex-direction: column; align-items: center;justify-content: space-between;width: 100%;
+            &:last-child{padding-bottom: 0px;border-bottom: 0px; }
+            .transactionsList{padding:16px; width: calc(100% - 32px); border-bottom: 1px solid $SecondaryColor-1;  display: flex;align-items: center;justify-content: space-between;
+                &:last-child{border-bottom: 0px; }
+                .iconContainer{height: 32px; width: 32px;
+                    ._icon{ height: 32px; width: 32px; border-radius: 50%;  margin: 0px;}
+                }
+                .infoTextContainer{margin:0px; width: calc(100% - 32px); display: flex;align-items: center;justify-content: space-between;
+                    ._title{height: 32px; margin: 0px 12px;}
+                    ._icon{height: 24px; width: 24px; border-radius: 50%;  margin: 0px;}
+                }
+            }           
+            .buttonContainer{.btn{height: 32px; width:150px; margin: 12px auto;}}
+        }
+    }
+    
+
+    /* ==========================================================================
+    SKELETON ANNIMATION
+    ========================================================================== */
+    
+      
+      %c-skeleton__animation {      
+        animation-fill-mode      : forwards;        
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+        animation-name    : placeHolderShimmer;
+        background-color  : $loaderSkeletonColor;
+        background-image  : linear-gradient(to right, $loaderSkeletonColor 8%, $stepsBorderColor 18%, $loaderSkeletonColor 33%);
+        background-size   : 800px 104px;
+      }
+      
+      @keyframes placeHolderShimmer {
+        0% {
+          background-position: -468px 0
+        }
+        100% {
+          background-position: 350px 0
+        }
+      }
+      
+      
+      .c-skeleton__figure {width: 100%;height: 100%;border-radius: 4px;min-height: 20px;
+        @extend %c-skeleton__animation;
+      }
+      .c-skeleton__text {height: 0.8em;width: 95%;margin: 0 auto 0.3em;border-radius: 4px;
+        @extend %c-skeleton__animation;
+      }
+      .c-skeleton__button {height: 0.8em;width: 95%;margin: 0 auto 0.3em;border-radius: 4px;
+        @extend %c-skeleton__animation;
+      }
+}
+
+@media only screen and (max-width: 767px) {
+    .loaderSkeleton {
+        .c-skeleton { margin-bottom: 0; border: none;
+            .c-skeleton_figure { width: 70px; height: 40px; }
+            .c-skeleton_body { display: block;
+                .skeleton_title {
+                    .c-skeleton__text { &:last-child { display: none; } }
+                }
+                .skeleton_subText_third, .skeleton_button { display: none; }
+                .c-skeleton__text {margin: 0 0 0.3em;}
+            }
+        }
+        .headerContainer{
+            .header{    max-width: calc(100% - 33px);}
+        }
+        .wrapperLayout{
+            .mainContainerLayout{
+                .mainContentSection{padding: 16px 0px; width: calc(100% - 32px); margin: 0 auto;}
+            } 
+        } 
+        &.apply{
+            .container{width: 100%;  max-width: 100%;display: flex; flex-direction: column-reverse;
+                .screen_header{height: 20vh; width: 100%; padding: 0px 0px 16px 0px;}
+                .screen_body{height: 80vh;  width: 100%; padding: 0px;}
+            }
+        }
+        &.fullPageSkeleton {box-shadow: none; border: none; margin: 0;
+            .screen_body_leftmenu{display: none;}
+        }
+        &.PersonalDetailsSkeleton{ 
+            .tabHeading{  
+                .c-skeleton__text{min-height: 30px; margin:12px 0px;margin-right: 24px; width:100px;}
+            }
+            .tabData{
+                .c-skeleton__figure{width: 100%;  margin:12px 0px; margin-right: 0px;
+                    &:nth-child(3n){margin-right: 0px;} 
+                }
+            }           
+        } 
+        &.creditSavingsSkeleton{padding: 8px;}
+        &.creditSavingstransactions{padding: 0px;}
+    }
+}

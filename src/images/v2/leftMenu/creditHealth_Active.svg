@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>FA690D65-BDC7-4AE4-95CF-2B7B3FC25FAC@1x</title>
+    <g id="New---Revamp-Bureaus---Mobile-&amp;-Desktop--Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-1612.000000, -2265.000000)">
+            <g id="credit-health" transform="translate(1599.999974, 2254.000000)">
+                <g id="Group-79" transform="translate(12.000000, 11.000000)">
+                    <rect id="Rectangle" fill="#FFFFFF" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                    <g id="Group-2" transform="translate(2.000000, 1.000000)" stroke-width="1.2">
+                        <path d="M11.0174172,0.6 L15.2592913,4.42073576 L15.4,14.3428571 C15.4,15.1870638 15.0578176,15.9513495 14.5045836,16.5045836 C13.9513495,17.0578176 13.1870638,17.4 12.3428571,17.4 L12.3428571,17.4 L3.65714286,17.4 C2.81293617,17.4 2.04865045,17.0578176 1.49541641,16.5045836 C0.94218237,15.9513495 0.6,15.1870638 0.6,14.3428571 L0.6,14.3428571 L0.6,3.65714286 C0.6,2.81293617 0.94218237,2.04865045 1.49541641,1.49541641 C2.04865045,0.94218237 2.81293617,0.6 3.65714286,0.6 L3.65714286,0.6 L11.0174172,0.6 Z" id="Rectangle" stroke="#1B1DC7"></path>
+                        <g id="status-up" transform="translate(4.571429, 7.238095)" stroke="#D90368" stroke-dasharray="0,0" stroke-linecap="round">
+                            <line x1="0" y1="7.8961039" x2="0" y2="6.69172264" id="Vector"></line>
+                            <line x1="3.33178106" y1="7.89606395" x2="3.33178106" y2="5.48730143" id="Vector"></line>
+                            <line x1="6.66356212" y1="7.89601845" x2="6.66356212" y2="4.27705628" id="Vector"></line>
+                            <path d="M6.66341008,0 L6.36407658,0.346658754 C4.70473144,2.25970166 2.47925686,3.61423902 0,4.22410167" id="Vector" fill-rule="nonzero"></path>
+                            <path d="M4.7568276,0 L6.66344855,0 L6.66344855,1.8745256" id="Vector" stroke-linejoin="round" fill-rule="nonzero"></path>
+                        </g>
+                        <path d="M15.5428571,4.97619048 L11.8857143,4.97619048 C11.3807682,4.97619048 10.9714286,4.56685082 10.9714286,4.06190476 L10.9714286,0.452380952 L10.9714286,0.452380952" id="Rectangle" stroke="#1B1DC7" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

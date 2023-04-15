@@ -1,0 +1,42 @@
+@import "styles/config.scss";
+.wrapperLayout{min-height: 100vh; background: $bodyBgColor; display: flex;align-items: flex-start;justify-content: flex-start; flex-direction: column;
+    
+    .mainContainerLayout{ min-height: calc(100vh - 110px); display: flex;align-items: flex-start;justify-content:flex-start;width: 100vw;max-width:$pageMaxWidth; 
+        margin: 0px auto; padding: 0px $commonPadding;
+        &.fullPage{max-width:100%; 
+            .mainContentSection{ width: 100%; margin: 0px;}
+        }
+        .mainSidebarSection{ padding:0px; margin: 0px !important; position: fixed; top:102px; transition: all .3s ease-in-out;
+            &.scrolledLeftMenu{top: 20px; }
+        }
+        .mainContentSection{ margin-left: 282px; width: calc(100% - 282px); min-height: calc(100vh - 165px); padding: 40px 0px 0px 0px;}
+        .selectedReducerData{margin: 0px !important; position: fixed; flex-direction: column; top:102px; transition: all .3s ease-in-out;
+             height: 60vh; padding: 12px; box-sizing: border-box;width: 262px;border-radius: $boxBorderRadius;background-color: #FFFFFF; overflow: auto; box-shadow: $boxShadow;
+            .text{ margin:0px 0px 8px; font-size: 12px; color:$SecondaryColor;}
+        }
+    }
+    .headerContainer{z-index:99; display: flex; width:100%; background: #ffff; border-bottom: 1px solid $SecondaryColor-1; } 
+    .footerContainer{border-top: 1px solid $SecondaryColor-1; display: flex; align-items:center; justify-content: center;padding: 16px; width: calc(100% - 32px); background: $whiteColor;
+        footer{display: flex;text-align: center; align-items: center;justify-content: center;flex-direction: column; 
+            .infoText{font-size: 10px; line-height: 1.5; color: $SecondaryColor-7; 
+                a{text-decoration: none; color:$SecondaryLightColor;}
+            }
+           
+        }
+    } 
+}
+
+@media (max-width:767px) {
+    .wrapperLayout{background: #f7f8f9;
+        .headerWrapper{width:100%;
+            .siteLogo {width: 140px; 
+                .Logo { width: 100%;}
+            }
+        }
+        .mainContainerLayout{max-width: 100%; padding: 0px; 
+            .mainSidebarSection{ margin-right: 0px; display: none;}
+            .mainContentSection{ margin-left: 0px;  width: 100%; padding: 76px 0px 0px 0px;}
+        }
+        .footerContainer{background: #f7f8f9;}
+    } 
+}

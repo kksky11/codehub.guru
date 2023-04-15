@@ -1,0 +1,15 @@
+@import "styles/config.scss";
+.tooltipWrapper{ position: relative;
+    .tooltipText{text-align: center; display: none;position: absolute; top: -30px; left: 0px; background: #151010; color:$whiteColor; font-size: 12px; width: 100%;padding: 4px; border-radius: 8px;
+        &::after { content: " ";position: absolute;top: 100%; left: 50%;margin-left: -5px;border-width: 5px;border-style: solid;border-color: #151010 transparent transparent transparent;}
+    }
+    &:hover{
+        .tooltipText{display: flex;align-items: center;justify-content: center;
+            @include respond-below ( sm ){display: none;}
+        }
+    }
+    .tooltipContainer{ 
+        .tooltipBody{}
+       
+    }
+}

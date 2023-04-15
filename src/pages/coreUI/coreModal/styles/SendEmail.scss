@@ -1,0 +1,70 @@
+@import "styles/config.scss";;
+
+._error_modal{width: 360px;    
+    .top_image_parent {height: 214px;border-top-left-radius: 8px;border-top-right-radius: 8px;}
+    p{ line-height: 20px;}
+    &._v2{
+        position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%); margin: 0;
+        .modal-body{ padding: 20px 0 78px;
+            & > *:not(.info_heading){padding-left: 16px;padding-right: 16px;}
+            .info_heading{margin-top: 20px;padding-left: 16px;display: flex;
+                .commonHeading{padding-bottom: 0px;margin-bottom: 0px;
+                    .heading {padding: 0;font-weight: 600;font-size: 20px;line-height: 30px;}
+                }
+                .main_img_parent{margin-left: auto;
+                    img {width: 94px;}
+                }
+            }
+            .info{margin-bottom: 16px;
+                ._info_txt{padding: 0;font-size: 12px;color:$SecondaryColor-7;line-height: 20px;margin: 0;}
+                &._v2{
+                    ._info_txt{font-size: 14px;line-height: 22px;color:$SecondaryColor;font-weight: 600;}
+                }
+            }            
+            .cta_parent{margin-top: 24px; 
+                button{width: 100%;padding: 12px;font-weight: 600;font-size: 14px;line-height: 19px;}
+              
+            }
+            .errorText{font-size: 14px; color:red; margin-bottom: 10px; }
+            
+        }
+    }
+}
+._common_chkbox_list{padding: 0;
+        li{font-size: 14px;line-height: 16px;color: #052F5F;display: flex;align-items: center;align-content: center;margin-bottom: 8px;
+            &:last-child{margin-bottom: 0;}
+            input{
+                &.checkbox{width: 14px;height: 14px;top: 0;margin-right: 8px;
+                    &:before{width: 12px;height: 12px;border: 1px solid rgba(5, 47, 95, 0.4);border-radius: 2px;}
+                    &:after{left: 0;top:0;}
+                    & ~ label[for]{cursor: pointer;}                                 
+                    &:checked{
+                        &::before{border-left: 2px solid #fff;border-bottom: 2px solid #fff;height: 4px;width: 8px;border-top: none;border-right: none;left: 2px;top: 3px;}
+                        &:after {background: $SecondaryLightColor;width: 14px;height: 14px;top: 0;left: 0;border-radius: 2px;}
+                        & ~ label[for]{font-weight: 600;}
+                    }
+                }
+            }
+            
+        }
+        &.error{
+            li{ 
+                input{
+                    &.checkbox{
+                        &:before{width: 12px;height: 12px;border: 1px solid red;}
+                    }  
+                } 
+            }
+        }
+    }
+    @media (max-width: 640px) {
+        ._error_modal{
+            &._v2 {
+                top: auto;
+                left: auto;
+                transform: inherit;
+                width: 100%;
+            }
+         }
+        
+    }
