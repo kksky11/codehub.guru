@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="4px" height="42px" viewBox="0 0 4 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>inactive center@1x</title>
+    <g id="inactive-center" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M-66.6453011,41.4815594 C35.3546989,41.5061469 79.6880322,41.5061469 66.3546989,41.4815594 C46.3546989,41.4446783 46.3546989,4.5 26.3546989,4.5 C6.35469888,4.5 -54.8520575,4.5 -66.6453011,4.5 C-66.6453011,12.2922498 -66.6453011,24.6194363 -66.6453011,41.4815594 Z" id="Path" stroke="#DCE1E6" fill="#F4F6F9"></path>
+        <path d="M168.666838,41.4508178 C68.8889459,41.5 12.3333333,41.5122956 -1,41.4877044 C-21,41.4508178 -21,0.5 -41,0.5 C-61,0.5 -72.2067563,0.5 -84,0.5" id="Path" stroke="#B0B1E9" transform="translate(42.333419, 21.000000) scale(-1, 1) translate(-42.333419, -21.000000) "></path>
+    </g>
+</svg>

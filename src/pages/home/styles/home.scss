@@ -1,0 +1,57 @@
+@import "styles/config.scss";
+
+$maxWidth:80%;
+
+.ourFeatures{ max-width: $maxWidth; margin:0 auto 24px; 
+    .cardWrapper{ width: 100%; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;
+        .cardContainer{@include commonBox(); margin: 24px 0px; min-height: 200px; width: calc(33% - 100px);text-align: center;display: flex; align-items: center; justify-content: space-between; flex-direction: column;
+            .icon{ font-size: 48px; color:$SecondaryLightColor; margin: 0px 0px 16px; padding: 0px;}
+            .title{font-size: 24px; line-height: 1.5; color:$SecondaryColor; margin: 0px 0px 16px; padding: 0px;}
+            .infoText{font-size: 16px; line-height: 1.5; color:$SecondaryColor-6;}
+        }
+    }
+    @include respond-below (sm) {
+        max-width:calc(100% - 32px);
+        .cardWrapper{
+            .cardContainer{width: 100%; padding: 16px; min-height: 150px;
+                .icon{font-size: 36;}
+                .title{font-size: 18px; }
+                .infoText{font-size: 14px;}
+            }
+        }
+    }
+}
+.ourProducts{ max-width:$maxWidth; margin:0 auto 24px; 
+    .cardWrapper{ width: 100%; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;
+        .cardContainer{@include commonBox(); margin: 24px 0px; min-height: 200px; width: calc(33% - 100px);text-align: center;display: flex; align-items: center; justify-content: space-between; flex-direction: column;
+            .icon{background: $bodyBgColor; height: 85px; width: 85px; display: flex; align-items: center; justify-content: center;  cursor: pointer; box-shadow: $boxShadow; font-size: 36px; color:$SecondaryLightColor; margin: 0px 0px 16px; padding: 0px;border-radius: 50%;transition: all 0.3s;
+                &:hover{background: $whiteColor;transition: all 0.3s;color:$SecondaryColor;}
+            }
+            .title{font-size: 24px; line-height: 1.5; color:$SecondaryColor;margin: 0px 0px 0px;  padding: 0px;}
+            .infoText{font-size: 16px; line-height: 1.5; color:$SecondaryColor-6; margin: 0px 0px 16px;}
+        }
+    }
+    @include respond-below (sm) {
+        max-width:calc(100% - 32px);
+        .cardWrapper{
+            .cardContainer{width: 100%; padding: 16px; min-height: 150px;
+                .icon{font-size: 24;  height: 65px; width: 65px;}
+                .title{font-size: 18px; }
+                .infoText{font-size: 14px;}
+            }
+        }
+    }
+}
+
+.aboutUs{max-width: $maxWidth; margin:100px auto; 
+    .infoContainer{width: 100%; display: flex; align-items: center; justify-content: space-between;
+        .infoTitle{width: 50%;}
+        .infoText{width: 50%; font-size: 16px;line-height: 1.5; color:$SecondaryColor-6; margin: 0px 0px 16px;}
+    }
+    @include respond-below (sm) { max-width:calc(100% - 32px); margin:24px auto; 
+        .infoContainer{ flex-direction: column;
+            .infoTitle,
+            .infoText{width:100%;}
+        }
+    }
+}

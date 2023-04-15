@@ -1,0 +1,24 @@
+{
+    "SSO"                          : {
+        "SWITCH"              : false,
+        "PAYLOAD"             : {
+            "environment"           : "staging",
+            "accountsUrl"           : "",
+            "clientId"              : "",
+            "redirectLoginUri"      : "",
+            "redirectLogoutUri"     : "",
+            "scope"                 : "",
+            "siteId"                : "",
+            "encryptionKey"         : ""
+        }
+    },
+    "MOCKAPI"                 : false,
+    "BASE_URL"                : {
+        "IMAGE_URL"                 : "", 
+        "INTERNAL_URL"              : "",
+        "EXTERNAL_URL"              : "",
+        "APP_STORE"                 : "",
+        "GOOGLE_PLAY"               : ""
+    },
+    "ELIGIBLE_USER"           : ["9643493605","9111111111"]
+}

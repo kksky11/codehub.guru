@@ -1,0 +1,21 @@
+@import "styles/config.scss";
+.sectionHeading{ margin-bottom:16px;display: flex; flex-direction: column;
+    &.left{align-items: flex-start;}
+    &.center{align-items: center;}
+    &.pageHeading{
+        .heading{font-size: 18px; font-weight: bold; color: $SecondaryLightColor;margin: 0px 0px 4px; 
+            .tag{font-size: 10px; font-weight: 600; display: block; padding: 0px;}
+        }
+        .subTitle{font-size:16px; font-weight: 500;}
+    }
+    .heading{ margin: 0px 0px 0px; font-weight: bold;  color: $SecondaryColor; font-size: 48px; line-height: 1.5;
+        .tag{ display: block; font-size: 14px; color: $SecondaryColor-7; font-weight: normal;}
+    }
+    .subTitle{margin: 4px 0px 0px; font-weight: 600; color: $SecondaryColor-7; font-size: 18px; line-height:1.5;}
+    @include respond-below (sm) {
+        .heading{ font-size: 36px;
+            .tag{ font-size: 12px;}
+        } 
+        .subTitle{ font-size: 16px;}
+    }
+}

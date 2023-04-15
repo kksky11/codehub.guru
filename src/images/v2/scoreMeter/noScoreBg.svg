@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="231px" height="164px" viewBox="0 0 231 164" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>5CB7EF71-D0E5-46A0-B6FE-68BECF556A5C@2x</title>
+    <defs>
+        <ellipse id="path-1" cx="57.8315687" cy="57.5886525" rx="57.8315687" ry="57.5886525"></ellipse>
+        <filter x="-29.4%" y="-27.8%" width="158.8%" height="159.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="11" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.894117647   0 0 0 0 0.901960784   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M83.5840812,0 C129.745853,0 167.168162,37.3121638 167.168162,83.3400362 C167.168162,88.7298091 166.654702,94.0553424 165.643173,99.2663588 C165.381914,100.612263 164.076699,101.491998 162.727893,101.231301 C161.379087,100.970605 160.497455,99.6681979 160.758714,98.3222937 C161.709938,93.4219488 162.19292,88.4125363 162.19292,83.3400362 C162.19292,40.0548857 126.998986,4.96453901 83.5840812,4.96453901 C40.1691767,4.96453901 4.97524293,40.0548857 4.97524293,83.3400362 C4.97524293,88.3078394 5.43849171,93.2152376 6.35122003,98.0191074 C6.60713405,99.3660336 5.72033976,100.664946 4.37050954,100.920309 C3.02067932,101.175673 1.71896642,100.290786 1.46305239,98.9438602 C0.492474112,93.8355146 0,88.6185196 0,83.3400362 C0,37.3121638 37.4223098,0 83.5840812,0 Z" id="path-3"></path>
+    </defs>
+    <g id="Final---Credit-Advisory-&amp;-Rectification" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop----No-Score" transform="translate(-516.000000, -226.000000)">
+            <g id="Group-12" transform="translate(442.000000, 104.000000)">
+                <g id="Hey-Jyoti..." transform="translate(74.000000, 122.000000)">
+                    <g id="Credit-Score-meter" transform="translate(31.916183, 0.000000)">
+                        <path d="M162.271077,99.2907801 C163.156693,92.5667325 163.599501,87.5555213 163.599501,84.2571463 C163.599501,40.4709365 127.886293,3.97163121 83.8318197,3.97163121 C39.777346,3.97163121 4.06413877,39.4673676 4.06413877,83.2535774 C4.06413877,86.9102675 4.60662257,92.2560018 5.69159017,99.2907801 L162.271077,99.2907801 Z" id="background-" fill="#052F5F" opacity="0.06"></path>
+                        <g id="815-excellent-" transform="translate(26.000251, 24.822695)">
+                            <g id="Oval">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <ellipse id="Oval" stroke="#F1F1F1" stroke-width="0.786199788" fill="#FFFFFF" cx="57.8460886" cy="57.6241135" rx="52.4529887" ry="52.2310136"></ellipse>
+                        </g>
+                        <g id="Group-8">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Oval" fill="#D1D3DE" fill-rule="nonzero" xlink:href="#path-3"></use>
+                            <g id="Rectangle-Copy" mask="url(#mask-4)">
+                                <g transform="translate(-35.077312, -28.297872)">
+                                    <g id="colours-lines" transform="translate(118.661393, 30.780142)">
+                                        <path d="M79.616862,96.3120567 C80.5878829,91.3097263 81.0964598,86.1429639 81.0964598,80.8577667 C81.0964598,75.4048528 80.5550932,70.0780097 79.5230254,64.9277538" id="Dark-Green-line" stroke="#D1D3DE" stroke-width="4.96453901" stroke-linecap="round"></path>
+                                        <path d="M79.5230254,64.9277538 C77.2500152,53.5849095 72.5968602,43.0986006 66.1048024,34.0084763" id="Light-Green-line" stroke="#D1D3DE" stroke-width="4.96453901"></path>
+                                        <path d="M66.1048024,34.0084763 C58.8710177,23.8797924 49.3541318,15.48455 38.302902,9.5693027" id="Yellow-line" stroke="#D1D3DE" stroke-width="4.96453901"></path>
+                                        <path d="M38.302902,9.5693027 C26.895585,3.46345724 13.8534534,0 0,0" id="Orange-line" stroke="#D1D3DE" stroke-width="4.96453901"></path>
+                                    </g>
+                                    <g id="white-lines--02" transform="translate(118.163869, 27.304965)">
+                                        <polygon id="Mask" fill="#FFFFFF" points="2.98514576 0 2.98514576 6.95035461 0 6.95035461 0 0"></polygon>
+                                        <polygon id="Mask" fill="#FFFFFF" transform="translate(38.309371, 12.411348) rotate(26.000000) translate(-38.309371, -12.411348) " points="39.8042785 8.93346512 39.7983742 15.8866995 36.8144626 15.8892299 36.820367 8.93599556"></polygon>
+                                        <polygon id="Mask" fill="#FFFFFF" transform="translate(67.165780, 38.226950) rotate(55.000000) translate(-67.165780, -38.226950) " points="68.6597182 34.7452366 68.6526773 41.7056466 65.671841 41.7086641 65.6788819 34.7482541"></polygon>
+                                        <polygon id="Mask" fill="#FFFFFF" transform="translate(80.101411, 68.014184) rotate(75.000000) translate(-80.101411, -68.014184) " points="81.5928612 64.5312135 81.5891148 71.4955497 78.6099612 71.4971553 78.6137076 64.5328191"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Download-Button" transform="translate(0.000000, 48.269504)" fill="#052F5F">
+                        <g id="score-details" transform="translate(85.578340, 0.000000)" font-family="OpenSans-Bold, Open Sans" font-size="22" font-weight="bold" line-spacing="34">
+                            <text id="No-Score">
+                                <tspan x="14.746582" y="24">No </tspan>
+                                <tspan x="0.480957031" y="58">Score</tspan>
+                            </text>
+                        </g>
+                        <g id="300" transform="translate(0.000000, 38.113475)" font-family="OpenSans-Semibold, Open Sans" font-size="12" font-weight="500" line-spacing="14.893617" opacity="0.6">
+                            <text>
+                                <tspan x="0" y="13">300</tspan>
+                            </text>
+                        </g>
+                        <g id="900" transform="translate(209.503018, 38.113475)" font-family="OpenSans-Semibold, Open Sans" font-size="12" font-weight="500" line-spacing="14.893617" opacity="0.6">
+                            <text>
+                                <tspan x="0" y="13">900</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

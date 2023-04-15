@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="117px" height="137px" viewBox="0 0 117 137" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>30BD2AB9-7204-4167-A291-ED237AD5B81E@1x</title>
+    <defs>
+        <path d="M103.146853,200 C158.294223,200 203,155.228475 203,100 C203,44.771525 158.294223,0 103.146853,0 C47.9994829,0 3.29370629,44.771525 3.29370629,100 C3.29370629,155.228475 47.9994829,200 103.146853,200 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="199.706294" height="200" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="rana-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="my-account---otp-not-verified-copy-3" transform="translate(-443.000000, -483.000000)">
+            <g id="Group-32-Copy-3" transform="translate(443.000000, 483.000000)">
+                <g id="Group-10" transform="translate(-86.000000, -63.000000)">
+                    <g transform="translate(101.500000, 100.000000) scale(-1, 1) translate(-101.500000, -100.000000) " id="Group-11">
+                        <ellipse id="Oval" fill="#EFF6FF" cx="92.2307692" cy="94.0534351" rx="92.2307692" ry="92.3664122"></ellipse>
+                        <use id="Oval" stroke="#AFD0FB" mask="url(#mask-2)" stroke-width="3.05343511" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12.21374045801527" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

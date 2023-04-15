@@ -1,0 +1,12 @@
+@import "styles/config.scss";;
+
+.ApplyForOfferModal{
+    .iconContainer{width: 100%;display: flex;align-items: center;justify-content: center;
+        img{ max-width: 130px;}
+    }
+    .btn{ height: 40px; width:100%;} 
+}
+
+@media (max-width: 640px) {
+
+}

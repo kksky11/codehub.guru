@@ -1,0 +1,152 @@
+@import './color.scss';
+@import './images.scss';
+
+$font-family : "Open Sans";
+// border-radius
+$borderRadius           : 6px;
+$borderRadius-6         : 6px;
+$borderRadius-4         : 4px;
+
+$commonBorderRadius     : 8px;
+$boxBorderRadius        : 3rem;
+$boxMarginBottom        : 40px;
+$boxMarginBottomMobile  : 16px;
+$boxShadow              : 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+$boxPadding             : 12px;
+
+$commonMargin           : 10px;
+$commonPadding          : 16px;
+$layoutMaxWidth         : 100%;
+$pageMaxWidth           : 100%;
+
+$commonBoxShadow        : 0 2px 19px 0 rgba(237,237,237,1);
+
+.spinLoader{border:2px solid #f3f3f3; border-radius: 50%;border-top:3px solid $SecondaryLightColor;width: 36px; height: 36px;-webkit-animation: spinLoader 2s linear infinite; animation: spinLoader 2s linear infinite; }
+@-webkit-keyframes spinLoader {0% { -webkit-transform: rotate(0deg); }100% { -webkit-transform: rotate(360deg); }}
+@keyframes spinLoader {0% { transform: rotate(0deg); }100% { transform: rotate(360deg); }}
+
+$html-font-size: 16px;
+@function stripUnit($value) { @return $value / ($value * 0 + 1);}
+@function rem($pxValue) { @return #{stripUnit($pxValue) / stripUnit($html-font-size)}rem;}
+
+@media (max-width:767px) {
+    $boxMarginBottom :24px;
+}
+
+@mixin commonBox(){padding:48px 32px;background-color: $bodyBgColor ; margin-bottom:$boxMarginBottom; box-shadow: $boxShadow; border-radius:$boxBorderRadius; }
+@mixin commonBoxMobile(){
+    background-color: $whiteColor;  padding: 16px; margin-bottom:$boxMarginBottomMobile; box-shadow: none; border-radius:0px;
+}
+
+
+
+
+@mixin radius($radius) {
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+}
+
+@mixin box-sizing ($type: border-box) {
+    -webkit-box-sizing: $type;
+    -moz-box-sizing: $type;
+    box-sizing: $type;
+}
+
+
+//
+// MEDIA QUERIES
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// A map of breakpoints.
+$breakpoints: (
+xs: 576px,
+sm: 768px,
+md: 992px,
+lg: 1200px
+);
+
+//
+// RESPOND ABOVE
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// @include respond-above(sm) {}
+@mixin respond-above($breakpoint) {
+    // If the breakpoint exists in the map.
+    @if map-has-key($breakpoints, $breakpoint) {
+        // Get the breakpoint value.
+        $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+        // Write the media query.
+        @media (min-width: $breakpoint-value) {
+            @content;
+        }
+
+        // If the breakpoint doesn't exist in the map.
+    }
+
+    @else {
+        // Log a warning.
+        @warn "Invalid breakpoint: #{$breakpoint}.";
+    }
+}
+
+//
+// RESPOND BELOW
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// @include respond-below(sm) {}
+@mixin respond-below($breakpoint) {
+    // If the breakpoint exists in the map.
+    @if map-has-key($breakpoints, $breakpoint) {
+        // Get the breakpoint value.
+        $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+        // Write the media query.
+        @media (max-width: ($breakpoint-value - 1)) {
+            @content;
+        }
+
+        // If the breakpoint doesn't exist in the map.
+    }
+
+    @else {
+        // Log a warning.
+        @warn "Invalid breakpoint: #{$breakpoint}.";
+    }
+}
+
+//
+// RESPOND BETWEEN
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// @include respond-between(sm, md) {}
+@mixin respond-between($lower, $upper) {
+    // If both the lower and upper breakpoints exist in the map.
+    @if map-has-key($breakpoints, $lower) and map-has-key($breakpoints, $upper) {
+        // Get the lower and upper breakpoints.
+        $lower-breakpoint: map-get($breakpoints, $lower);
+        $upper-breakpoint: map-get($breakpoints, $upper);
+
+        // Write the media query.
+        @media (min-width: $lower-breakpoint) and (max-width: ($upper-breakpoint - 1)) {
+            @content;
+        }
+
+        // If one or both of the breakpoints don't exist.
+    }
+
+    @else {
+        // If lower breakpoint is invalid.
+        @if (map-has-key($breakpoints, $lower) == false) {
+            // Log a warning.
+            @warn "Your lower breakpoint was invalid: #{$lower}.";
+        }
+
+        // If upper breakpoint is invalid.
+        @if (map-has-key($breakpoints, $upper) == false) {
+            // Log a warning.
+            @warn "Your upper breakpoint was invalid: #{$upper}.";
+        }
+    }
+}

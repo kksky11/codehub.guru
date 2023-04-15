@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53 (72520) - https://sketchapp.com -->
+    <title>2E1D97CB-C44A-4806-A4B6-CFB41FCDEC01</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="100%" x2="15.9137669%" y2="12.5251155%" id="linearGradient-1">
+            <stop stop-color="#FFE400" offset="0%"></stop>
+            <stop stop-color="#FFA900" offset="100%"></stop>
+        </linearGradient>
+        <path d="M27.0860927,32.6155878 L26.2384106,19.9603699 C26.0794694,17.4944835 26,15.7243559 26,14.6499339 C26,13.1880156 26.3841021,12.0475602 27.1523179,11.2285337 C27.9205336,10.4095071 28.9315611,10 30.1854305,10 C31.7042019,10 32.7196442,10.523993 33.2317881,11.5719947 C33.7439319,12.6199964 34,14.1303292 34,16.1030383 C34,17.2655276 33.9381905,18.4456127 33.8145695,19.6433289 L32.6754967,32.668428 C32.5518758,34.2184137 32.2869777,35.4073054 31.8807947,36.2351387 C31.4746117,37.062972 30.8035367,37.4768824 29.8675497,37.4768824 C28.9139025,37.4768824 28.2516575,37.0761819 27.8807947,36.2747688 C27.5099319,35.4733557 27.2450339,34.253641 27.0860927,32.6155878 Z M30.0264901,50 C28.949222,50 28.008834,49.6521391 27.205298,48.9564069 C26.401762,48.2606746 26,47.2875448 26,46.0369881 C26,44.9449527 26.3841021,44.0158559 27.1523179,43.2496697 C27.9205336,42.4834836 28.8609216,42.1003963 29.9735099,42.1003963 C31.0860983,42.1003963 32.0353162,42.4834836 32.8211921,43.2496697 C33.6070679,44.0158559 34,44.9449527 34,46.0369881 C34,47.2699313 33.602653,48.2386579 32.807947,48.9431968 C32.0132411,49.6477358 31.086098,50 30.0264901,50 Z" id="path-2"></path>
+        <filter x="-68.8%" y="-13.8%" width="262.5%" height="132.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.666666667   0 0 0 0 0  0 0 0 0.403272509 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="error" transform="translate(-671.000000, -1621.000000)">
+            <g id="Group-18-Copy" transform="translate(472.000000, 1551.000000)">
+                <g id="Group" transform="translate(62.000000, 70.000000)">
+                    <g id="warning" transform="translate(137.000000, 0.000000)">
+                        <circle id="Oval" fill="url(#linearGradient-1)" cx="30" cy="30" r="30"></circle>
+                        <g id="!" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill="#FFFFFF" xlink:href="#path-2"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="26px" viewBox="0 0 25 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>0ACAC080-E7C5-436E-BD35-3AD2BD553FC1@2x</title>
+    <g id="New-design----desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="consent" transform="translate(-278.000000, -649.000000)">
+            <g id="Group-4" transform="translate(276.000000, 179.000000)">
+                <g id="no-accounts-message" transform="translate(0.000000, 56.000000)">
+                    <g id="Group-9" transform="translate(2.000000, 410.000000)">
+                        <g id="Group-4" transform="translate(0.000000, 4.000000)">
+                            <g id="lock">
+                                <path d="M24,0 L24,24 L0,24 L0,0 L24,0 Z" id="Vector" opacity="0" transform="translate(12.000000, 12.000000) rotate(-180.000000) translate(-12.000000, -12.000000) "></path>
+                                <path d="M6,10 L6,8 C6,4.69000006 7,2 12,2 C17,2 18,4.69000006 18,8 L18,10" id="Vector" stroke="#052F5F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                                <path d="M7,24 C3,24 2,23 2,19 L2,15 C2,11 3,10 7,10 L17,10 C21,10 22,11 22,15 L22,19 C22,23 21,24 17,24 L7,24 Z" id="Vector" stroke="#052F5F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                                <text id="SSL" font-family="OpenSans-Bold, Open Sans" font-size="8" font-weight="bold" line-spacing="8" fill="#ED0068">
+                                    <tspan x="5" y="22">SSL</tspan>
+                                </text>
+                            </g>
+                            <g id="Group-3" transform="translate(16.000000, 17.000000)">
+                                <circle id="Oval" stroke="#052F5F" stroke-width="1.4" fill="#FFFFFF" cx="4.5" cy="4.5" r="3.8"></circle>
+                                <path d="M3,4.76363636 L3.81818182,5.5818187 L6,3.4" id="Vector" stroke="#ED0068" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

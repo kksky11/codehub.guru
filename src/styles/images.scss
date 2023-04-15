@@ -1,0 +1,69 @@
+$staticPath:"https://static.paisabazaar.com/media/myaccount/v2/";
+$stagingPath:"https://staging.paisabazaar.com/components/images/MY-ACCOUNT/";
+$localPath:"/images/v2/";
+$rootPath:$staticPath;
+
+$img           : $rootPath;
+$imgBackground : $rootPath+'background/';
+$imgDashboard  : $rootPath+'dashboard/';
+$imgHeader     : $rootPath+'header/';
+$imgIcon       : $rootPath+'icons/';
+$imgFooter     : $rootPath+'footer/';
+$imgLeftMenu   : $rootPath+'leftMenu/';
+$imgSupport        : $rootPath+'support/';
+$imgTransactions   : $rootPath+'transactions/';
+$imgStepUpCard     : $rootPath+'stepUpCard/';
+$imgOffers         : $rootPath+'offers/';
+$imgErrors         : $rootPath+'errors/';
+$imgFinvu          : $rootPath+'finvu/';
+$imgScoreMeter     : $rootPath+'scoreMeter/';
+$imgMyProfile      : $rootPath+'myProfile/';
+$imgBanners        : $rootPath+'banners/';
+$imgTick           : $rootPath+'tick/';
+$imgArrow          : $rootPath+'arrow/';
+
+//header images
+$whatsAppIcon   : $imgHeader+'whatsapps.png';
+$phoneCallIcon  : $imgHeader+'phone-call.png';
+$leftArrow      : $imgHeader+'left-arrow.svg';
+$avatarIcon     : $imgHeader+"avatar.png";
+$helpIcon       : $imgHeader+'help.png';
+$searchIcon     : $imgHeader+'search.png';
+$profileInfoBG  : $imgBackground+"Profile-bg.svg";
+$closeMenuIcon  : $imgHeader+"closeMenu.svg";
+$arrowUp        : $imgHeader+'arrow_up.svg';
+
+
+//Banners
+
+//rectificationBanner
+$rectificationBanner          :$imgBanners+'rectification/banner/rectificationBanner.svg';
+$rectificationBanner_mobile   :$imgBanners+'rectification/banner/rectificationBanner_mobile.svg';
+$rectificationBanner_personalizedAnalysis   :$imgBanners+'rectification/banner/personalizedAnalysis.svg';
+$rectificationBanner_tips      :$imgBanners+'rectification/banner/tips.svg';
+
+$whatsappIcon   :$imgBanners+'whatsApp/icons/whatsappIcon.svg';
+
+//transactions
+//$whatsappIcon   :$imgTransactions+'whatsApp/icons/whatsappIcon.svg';
+
+//CreditFactors
+
+//support faqs/contacts/query
+
+$plusIcon   :$imgSupport+'/faqs/plusIcon.svg';
+$minusIcon  :$imgSupport+'/faqs/minusIcon.svg';
+$plusIcon   :$imgSupport+'/faqs/plusIcon.svg';
+
+
+//Tick
+$tick        :$imgTick+'tick.svg';
+$tick-blue   :$imgTick+'tick-blue.svg';
+$tick-red    :$imgTick+'tick-red.svg';
+
+//Arrow
+$arrowRightCircle   :$imgArrow+'arrow-rightCircle.svg';
+$arrowDown          :$imgArrow+'arrow-down.svg';
+
+//footer images
+$footerDownArrow: $imgFooter+"arrow-down-blue.svg";

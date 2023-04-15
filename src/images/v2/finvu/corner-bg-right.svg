@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="107px" viewBox="0 0 103 107" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>38BFFE56-FB57-4393-ABB6-19E4FFDB9A0D@1x</title>
+    <defs>
+        <path d="M105,181.869565 C154.153343,181.869565 194,141.156676 194,90.9347826 C194,40.7128889 154.153343,0 105,0 C55.8466573,0 16,40.7128889 16,90.9347826 C16,141.156676 55.8466573,181.869565 105,181.869565 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="178" height="181.869565" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="rana-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="My-Acc-state-3-Copy" transform="translate(-242.000000, -421.000000)">
+            <g id="Group-9" transform="translate(17.000000, 421.000000)">
+                <g id="Group-4" transform="translate(225.000000, -75.608696)">
+                    <ellipse id="Oval" fill="#EFF6FF" cx="82" cy="94" rx="82" ry="83.7826087"></ellipse>
+                    <use id="Oval" stroke="#AFD0FB" mask="url(#mask-2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

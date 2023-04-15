@@ -1,0 +1,65 @@
+@import "styles/config.scss";
+
+.RadioInputField{position: relative;margin-bottom: 16px;
+    &.error{}
+    .RadioInputFieldTitle{opacity: 0.7;color: $SecondaryColor;font-size: 12px;line-height: 17px; }
+    .labelGroup{width:100%; display: flex; flex-direction: row ;align-items: center;flex-wrap: wrap;
+        .radioLabel{
+            .labelText{ color: $SecondaryColor;font-family:$font-family;font-size: 14px;font-weight: normal;letter-spacing: 0; padding: 0px 25px;}
+            &.commonCheckbox{ cursor: pointer; position: relative;display: flex;flex-direction: row;align-items: center; min-width: 125px;margin: 0px;color: $SecondaryColor;font-size: 14px;font-weight: 600;line-height: 15px;
+                input[type="radio"]{position: absolute; opacity:0;}
+                input[type="radio"]:checked + .labelText{font-weight: 600;
+                  &:before{content: ''; height: 16px; width:16px;left: 0px; position: absolute; color: $SecondaryColor;background-repeat: no-repeat;fill-opacity: 0;background-image: url('/images/icons/RadioOn-Desktop.svg');}
+                }
+                .labelText{padding: 0px 25px; margin-bottom: 10px;
+                &:before{content: ''; height: 16px; width:16px;left: 0px; position: absolute; color: $SecondaryColor;background-repeat: no-repeat;fill-opacity: 0;background-image: url('/images/icons/RadioOff-Desktop.svg');}
+               }
+            }
+        }
+    }
+    &.column{
+        .labelGroup{flex-direction: column;align-items: flex-start;
+            .radioLabel{ 
+                &.commonCheckbox{margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    
+    .errorTextMsg{font-size: 12px;}
+}
+
+@media only screen and (max-width: 768px) {
+ 
+}
+@media only screen and (max-width: 767px) {
+    .RadioInputField{
+        .labelGroup{
+            .radioLabel{
+                &.commonCheckbox{ font-size: 12px; cursor: pointer;
+                    input[type="radio"]:checked + .labelText{
+                      &:before{content: ''; height: 15px; width:15px;top:1px; left: 0px; position: absolute; color: $SecondaryColor;background-repeat: no-repeat;fill-opacity: 0;background-image: url('/images/icons/RadioOn-Mobile.svg');}
+                    }
+                    .labelText{padding-left: 20px;font-size: 12px; cursor: pointer;
+                    &:before{content: ''; height: 15px; width:15px; top:1px; left: 0px; position: absolute; color: $SecondaryColor;background-repeat: no-repeat;fill-opacity: 0;background-image: url('/images/icons/RadioOff-Mobile.svg');}
+                   }
+                }
+            }
+        }
+        &.moWidth50{
+            .labelGroup{
+                .radioLabel{ 
+                    &.commonCheckbox{min-width: 50%;}
+                }
+            }
+        }
+        &.moWidth33{
+            .labelGroup{
+                .radioLabel{ 
+                    &.commonCheckbox{min-width: 33.33%;}
+                }
+            }
+        }
+        
+    }
+}
